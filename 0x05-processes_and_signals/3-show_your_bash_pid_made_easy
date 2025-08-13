@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# A Bash script that shows only the PID and name of bash processes
+
+pidof -x bash | tr ' ' '\n' | while read pid; do
+    echo "$pid bash"
+done
