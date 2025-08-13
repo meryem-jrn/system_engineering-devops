@@ -1,7 +1,6 @@
 # System Engineering & DevOps
+## Directories
+- `0x00-shell_basics`: Basic shell commands
+- `0x01-shell_permissions`: File and user permissions
+- `0x02-shell_redirections`: Input/output redirection
 
-This repository contains scripts and exercises for learning Linux shell permissions, user management, and file operations. It is part of the ALX Foundations curriculum.
-
-## Directory Structure
-
-- `0x01-shell_permissions`: Tasks related to file and directory permissions.
