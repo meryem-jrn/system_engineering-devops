@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Affiche "Best School" 10 fois en utilisant la boucle for
+for i in {1..10}
+do
+  echo "Best School"
+done
