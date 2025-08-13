@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Affiche les fichiers du répertoire actuel après le premier tiret
+for f in *; do
+  if [[ "$f" != .* ]]; then
+    echo "${f#*-}"
+  fi
+done
